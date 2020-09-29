@@ -1,0 +1,19 @@
+no 2 Perbandingan dan kesetaraan nilai x dan y
+
+fun main(args: Array<String>) {
+    val x = 17
+    val y = 12
+    println("Perbandingan dan kesetaraan dari nilai x dan y adalah")
+    // >
+    println("$x > $y = ${x > y}")
+    // <
+    println("$x < $y = ${x < y}")
+    // >=
+    println("$x >= $y = ${x >= y}")
+    // <=
+    println("$x <= $y = ${x <= y}")
+    // ==
+    println("$x == $y = ${x == y}")
+    // !=
+    println("$x != $y = ${x != y}")
+        }

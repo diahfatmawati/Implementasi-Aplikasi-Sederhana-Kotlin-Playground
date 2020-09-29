@@ -1,0 +1,13 @@
+No 3 (Penggunaan For Looping)
+
+fun main(args: Array<String>){
+    val chingu: List<String> = listOf("Fariza Nanda Sabila","Apriliana Latifah Hanum","Tiara Karunia Miranti")
+    
+    println("너무 보고 싶어 내 가장 친한 친구")
+    
+    println("neomu bogosipeo nae gajang chinhan chingu")
+    
+    for(data in chingu){
+        data.let { println(it) }
+    }
+}

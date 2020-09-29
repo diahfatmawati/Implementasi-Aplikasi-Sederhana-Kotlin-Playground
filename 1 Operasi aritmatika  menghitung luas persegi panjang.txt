@@ -1,0 +1,14 @@
+no 1 Operasi Aritmatika : Menghitung luas Persegi Panjang
+
+fun main(args: Array<String>) {
+    var l = 10
+    var p = 15
+
+    var luas:Int?
+    luas = l * p
+
+println("Papapn Tulis memiliki lebar 10cm dan panjang 15cm")
+println("Hitung luas papan tulis")
+println("")
+println("Luas papan tulis adalah $l * $p = $luas cm")
+}

@@ -1,0 +1,11 @@
+no 4 Percabagan If
+
+fun main(args: Array<String>){
+
+    val TotalSkorTOEFL : Int = 620
+
+    if (TotalSkorTOEFL >= 450){
+	println("Selamat Anda Lolos tes TOEFL ITP PBT!")
+	}
+	println("Semoga Sukses")
+}

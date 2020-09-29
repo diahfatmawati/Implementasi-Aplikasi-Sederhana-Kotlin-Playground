@@ -1,0 +1,24 @@
+no 5 Percabangan When
+
+fun main(args: Array<String>){
+    var month: Int = 9
+
+    print("Sekarang adalah Bulan")
+
+    when (month) {
+	1 -> print("Januari")
+	2 -> print("Februari")
+	3 -> print("Maret")
+	4 -> print("April")
+	5 -> print("Mei")
+	6 -> print("Juni")
+	7 -> print("Juli")
+	8 -> print("Agustus")
+	9 -> print("September")
+	10 -> print("Oktober")
+	11 -> print("November")
+	12 -> print("Desember")
+
+	else -> {
+	    print("Dalam satu tahun total hanya 12 bulan saja")
+}}}
